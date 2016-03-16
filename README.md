@@ -17,7 +17,7 @@ How to use this image
 To use the different Corticon images  create a Dockerfile. Start with Corticon image of your choice. You can start by using any of the supported tags listed above or start with the latest.
 ```
     # Using the latest Corticon Image
-       FROM suvasri/corticon
+       FROM corticon/docker
     # You need to add the license file to the Corticon Work directory
        ADD CcLicense.jar /opt/corticon/work/
 ```
