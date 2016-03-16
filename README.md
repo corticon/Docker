@@ -6,7 +6,7 @@ Supported tags
 ------------------------
 * corticon/docker
 * corticon/docker:5.5.latest
-* corticon/docker:5.5.2.4
+* corticon/docker:5.5.2
 
 What is Progress Corticon?
 ===================
@@ -79,4 +79,4 @@ Be sure to familiarize yourself with README.md before attempting a pull request.
 
 Issues
 ----------------------------
-If you have any problems with or questions about this image, please contact us through corticon-docker@progress.com
+If you have any problems with or questions about this image, please contact us through corticon-github@progress.com or corticon-docker@progress.com
