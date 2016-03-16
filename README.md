@@ -1,6 +1,6 @@
 Progress Corticon Docker Official Images
 ===================
-Base docker image to run a corticon server using tomcat-7.
+Base docker image to run a Progress Corticon Server using tomcat-7.
 
 Supported tags
 ------------------------
