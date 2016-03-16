@@ -42,8 +42,8 @@ This will create your corticon server using the properties specified in the brms
 
 To change the user settings for the Corticon Web Console. 
 ```
-     # Add the serverconsole-user.xml to the CcServerSandbox/ServerConsole directory
-       ADD serverconsole-user.xml /opt/corticon/work/CcServerSandbox/ServerConsole/
+    # Add serverconsole-user.xml to CcServerSandbox/ServerConsole directory
+    ADD serverconsole-user.xml /opt/corticon/work/CcServerSandbox/ServerConsole/
 ```
 For more information about the serverconsole-user.xml please see [Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
 
@@ -79,12 +79,12 @@ http://192.168.99.100:8080/axis/
 ``` 
 License
 ===================
-View license information for the software contained in this image.
+View [license](https://github.com/corticon/Docker/blob/master/5.5.2/Corticon%20EULA.pdf) information for the software contained in this image.
 User Feedback
 ===================
 Documentation
 -------------------------------
-Be sure to familiarize yourself with README.md before attempting a pull request. For Corticon related documentation refer to [Progress Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
+Be sure to familiarize yourself with README.md before attempting a pull request. Documentation can also be found on [Github repo](https://github.com/corticon/Docker/). For Corticon related documentation refer to [Progress Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
 
 Issues
 ----------------------------
