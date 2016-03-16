@@ -28,12 +28,12 @@ To deploy decision services. Copy the decision service .eds files and the .cdd f
 ```
     # Copy decision services to the CDD directory
       ADD Order.eds /opt/corticon/work/cdd/
-      ADD Allocation.eds /opt/corticon/work/cdd 
-      ADD OrderProcessing.cdd /opt/corticon/work/cdd/ 
+      ADD Allocation.eds /opt/corticon/work/cdd/ 
+      ADD DecisionServices.cdd /opt/corticon/work/cdd/ 
 ```
 When the Corticon Server starts up, it will discover and deploy the decision services into the docker image.
 
-To enable the Corticon Server to use brms,properties. Copy the brms.properties file to the Corticon Work directory
+To enable the Corticon Server to use brms.properties. Copy the brms.properties file to the Corticon Work directory
 ```
     # Add brms.properties to CORTICON_WORK
       ADD brms.properties /opt/corticon/work/
@@ -45,9 +45,9 @@ To change the user settings for the Corticon Web Console.
     # Add serverconsole-user.xml to CcServerSandbox/ServerConsole directory
     ADD serverconsole-user.xml /opt/corticon/work/CcServerSandbox/ServerConsole/
 ```
-For more information about the serverconsole-user.xml please see [Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
+Similarly, you can support LDAP by copying the ldap.properties to the CcServerSandbox/ServerConsole directory. For more information about the serverconsole-user.xml or ldap.properties please see [Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
 
-To deploy an .eds which uses your extensions. Copy the extensions.jar to the Corticon Work Directory/CorticonExtensions as shown below
+To deploy an .eds which uses extensions. Copy the extensions.jar to the Corticon Work Directory/CorticonExtensions as shown below
 ```
      # Add extensions jar to the Corticon Work Directory/CorticonExtensions
        ADD [YOUR_EXTENSIONS_JAR_NAME].jar /opt/corticon/work/CorticonExtensions/
