@@ -10,7 +10,7 @@ Supported tags
 
 What is Progress Corticon?
 ===================
-Progress Corticon is a high-powered business rules engine without limits. It expands automated business rules capabilities and delivers a quicker, easier and more cost-effective decision automation solution -unencumbered by technology and business constraints. For more information, please see [Progress Corticon](https://www.progress.com/corticon)
+Progress Corticon is a high-powered business rules engine without limits. It expands automated business rules capabilities and delivers a quicker, easier and more cost-effective decision automation solution - unencumbered by technology and business constraints. For more information, please see [Progress Corticon](https://www.progress.com/corticon)
 
 How to use this image
 ===================
@@ -40,7 +40,7 @@ To enable the Corticon Server to use brms.properties. Copy the brms.properties f
 ```
 This will create your corticon server using the properties specified in the brms.properties file. For more information about the brms.properties file refer to [Corticon Documentation](https://documentation.progress.com/output/ua/Corticon/)
 
-To change the user settings for the Corticon Web Console. 
+To change the user settings for the Server Console. 
 ```
     # Add serverconsole-user.xml to CcServerSandbox/ServerConsole directory
     ADD serverconsole-user.xml /opt/corticon/work/CcServerSandbox/ServerConsole/
